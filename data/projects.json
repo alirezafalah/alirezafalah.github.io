@@ -20,11 +20,20 @@
   },
 
   {
+  "id": "sim-optimization-2025",
+  "image": "images/papers-and-projects/mujoco_env.png",
+  "title": "High-Fidelity Dynamics & RL (MuJoCo/Brax)",
+  "authors": "Alireza Falah",
+  "description": "Developed a differentiable vehicle dynamics model of the Dallara SF23 using MuJoCo MJX and Brax to enable massive-scale Reinforcement Learning for trajectory optimization. This served as the R&D foundation for the 2025 season. <span class=\"italic text-sm text-gray-500\">(Note: Specific implementation details and code are confidential due to NDA.)</span>",
+  "links": []
+  },
+
+  {
     "id": "a2rl-2024",
     "image": "images/papers-and-projects/a2rl_sim.jpg", 
     "title": "Autonomous Racing: A2RL Competition",
     "authors": "HUMDA Lab Team",
-    "description": "Contributed to the team's 5th place global finish by executing critical simulation-based verification of vehicle behavior. I utilized the official simulator to validate control strategies and ensure stability prior to track deployment.",
+    "description": "Contributed to the team's 5th place global finish by executing critical simulation-based verification of vehicle behavior. I utilized the official simulator to validate control strategies and ensure stability prior to track deployment. <span class=\"italic text-sm text-gray-500\">(Internal validation methodologies are proprietary.)</span>",
     "links": [
       {
         "type": "external",
