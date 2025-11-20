@@ -131,6 +131,104 @@
         </section>
 
         <!-- Footer -->
+                        <div id="bibtex-content-ijamt" class="hidden mt-4">
+                            <pre class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>@article{Falah2025JAMT,
+    author = {Falah, Alireza and Andó, Mátyás and Szekeres, Bálint J.},
+    title = {Tool Condition Monitoring in CNC Systems: A Hybrid Computer Vision and Signal Processing Approach},
+    journal = {The International Journal of Advanced Manufacturing Technology},
+    year = {2025},
+    note = {(Accepted/In Press)}
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <img src="images/papers-and-projects/paper1.jpg" alt="Publication thumbnail" class="w-full md:w-48 rounded-lg object-cover shadow-sm flex-shrink-0">
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-semibold text-gray-900">Novel and cost-effective CNC tool condition monitoring through image processing techniques</h3>
+                        <p class="text-gray-600 mt-1">
+                            Alireza Falah, Mátyás Andó
+                        </p>
+                        <p class="text-gray-500 italic mt-1">
+                            Springer Discover Applied Sciences, 2025.
+                        </p>
+                        <div class="mt-3 space-x-4">
+                            <a href="https://link.springer.com/article/10.1007/s42452-024-06200-w" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-medium hover:underline">Paper</a>
+                            <button data-target="bibtex-content-1" class="bibtex-toggle-btn text-blue-600 font-medium hover:underline">BibTeX</button>
+                            <a href="https://github.com/alirezafalah/Tool_Condition_Monitoring/tree/main/image_to_signal" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-medium hover:underline">Code</a>
+                        </div>
+                        <div id="bibtex-content-1" class="hidden mt-4">
+                            <pre class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>@article{Falah2024,
+                            author = {Falah, Alireza and Andó, Mátyás},
+                            title = {Novel and cost-effective CNC tool condition monitoring through image processing techniques},
+                            journal = {Discover Applied Sciences},
+                            year = {2024},
+                            volume = {6},
+                            number = {1},
+                            pages = {69},
+                            issn = {2730-8903},
+                            doi = {10.1007/s42452-024-06200-w},
+                            url = {https://doi.org/10.1007/s42452-024-06200-w}
+                            }</code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publication Item 2 -->
+                <div class="publication-item">
+                    <img src="images/papers-and-projects/confpaper.png" alt="Publication thumbnail" class="w-full md:w-48 rounded-lg object-cover shadow-sm flex-shrink-0">
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-semibold text-gray-900"> Autonomous Racing Competitions: A Review of Platforms, Software Development, and Sustainability Contributions</h3>
+                        <p class="text-gray-600 mt-1">
+                            Zalán Demeter, Alireza Falah, Levente Puskás
+                        </p>
+                        <p class="text-gray-500 italic mt-1">
+                            Conference on Sustainability – COS ’24
+                        </p>
+                        <div class="mt-3 space-x-4">
+                            <a href="https://cos.sze.hu/images/kiadv%C3%A1nyok/COS2024/Zal%C3%A1n%20Demeter,%20Alireza%20Falah,%20Levente%20Pusk%C3%A1s.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 font-medium hover:underline">Paper</a>
+                            <button data-target="bibtex-content-2" class="bibtex-toggle-btn text-blue-600 font-medium hover:underline">BibTeX</button>
+                        </div>
+                        <div id="bibtex-content-2" class="hidden mt-4">
+                            <pre class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>@inproceedings{Demeter2024Autonomous,
+                        author    = {Demeter, Zalán and Falah, Alireza and Puskás, Levente},
+                        title     = {{AUTONOMOUS RACING COMPETITIONS: A REVIEW OF PLATFORMS, SOFTWARE DEVELOPMENT, AND SUSTAINABILITY CONTRIBUTIONS}},
+                        booktitle = {Proceedings of the 2nd Conference on Sustainability – COS ’24},
+                        year      = {2024},
+                        pages     = {106--112},
+                        doi       = {10.62897/COS2024.2-1.106},
+                        address   = {Győr, Hungary},
+                        month     = {November}
+                        }</code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more publications here -->
+
+                <!-- Publication Item 3 -->
+                <!-- <div class="publication-item">
+                    <img src="https://placehold.co/200x120/E2E8F0/4A5568?text=Publication+Image" alt="Publication thumbnail" class="w-full md:w-48 rounded-lg object-cover shadow-sm flex-shrink-0">
+                    <div class="flex-grow">
+                        <h3 class="text-xl font-semibold text-gray-900">Another Groundbreaking Paper Title</h3>
+                        <p class="text-gray-600 mt-1">
+                            <strong class="text-gray-900">Alireza Falah</strong>, Co-author Name, Another Co-author
+                        </p>
+                        <p class="text-gray-500 italic mt-1">
+                            Preprint
+                        </p>
+                        <div class="mt-3 space-x-4">
+                            <a href="#" class="text-blue-600 font-medium hover:underline">Paper</a>
+                            <a href="#" class="text-blue-600 font-medium hover:underline">BibTeX</a>
+                            <a href="#" class="text-blue-600 font-medium hover:underline">Project</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Footer -->
         <footer class="text-center mt-12 pt-6 border-t">
             <a href="#" class="text-blue-600 hover:underline">Back to top</a>
             <p class="text-gray-500 text-sm mt-2">&copy; 2025 Alireza Falah. All Rights Reserved.</p>

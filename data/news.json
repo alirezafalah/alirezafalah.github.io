@@ -1,0 +1,18 @@
+[
+  {
+    "date": "November 2025",
+    "content": "Our paper <span class=\"italic\">\"Tool Condition Monitoring in CNC Systems\"</span> has been accepted for publication in <span class=\"font-medium\">The International Journal of Advanced Manufacturing Technology</span> (Q1)."
+  },
+  {
+    "date": "November 2025",
+    "content": "I have completed the <span class=\"font-medium\">MathWorks Parallel Computing Workshop</span>, that was hold as a cooperation by MathWorks, KDP and Sciengineer in budapest. Hands-on experience with parallel computing techniques in MATLAB to optimize performance for large-scale computations was gained.",
+    "link": {
+      "url": "docs/Alireza_Falah_Certificate_of_Attendance_MATLAB.pdf",
+      "text": "View Certificate"
+    }
+  },
+  {
+    "date": "August 2025",
+    "content": "The initial version of our dataset, <a href=\"https://huggingface.co/datasets/alirezafalah/ELTE-TCM-46k\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">ELTE-TCM-46k</a>, has been published on Hugging Face!"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "ijamt-2025",
+    "image": "images/papers-and-projects/paper2temp.jpg",
+    "title": "Tool Condition Monitoring in CNC Systems: A Hybrid Computer Vision and Signal Processing Approach",
+    "authors": "Alireza Falah, Mátyás Andó, Bálint J. Szekeres",
+    "venue": "The International Journal of Advanced Manufacturing Technology (IJAMT), 2025.",
+    "status": "Accepted",
+    "links": [
+      {
+        "type": "coming-soon",
+        "text": "Paper (Coming Soon)"
+      },
+      {
+        "type": "bibtex",
+        "text": "BibTeX"
+      }
+    ],
+    "bibtex": "@article{Falah2025JAMT,\n    author = {Falah, Alireza and Andó, Mátyás and Szekeres, Bálint J.},\n    title = {Tool Condition Monitoring in CNC Systems: A Hybrid Computer Vision and Signal Processing Approach},\n    journal = {The International Journal of Advanced Manufacturing Technology},\n    year = {2025},\n    note = {(Accepted/In Press)}\n}"
+  },
+  {
+    "id": "springer-2025",
+    "image": "images/papers-and-projects/paper1.jpg",
+    "title": "Novel and cost-effective CNC tool condition monitoring through image processing techniques",
+    "authors": "Alireza Falah, Mátyás Andó",
+    "venue": "Springer Discover Applied Sciences, 2025.",
+    "links": [
+      {
+        "type": "external",
+        "url": "https://link.springer.com/article/10.1007/s42452-024-06200-w",
+        "text": "Paper"
+      },
+      {
+        "type": "bibtex",
+        "text": "BibTeX"
+      },
+      {
+        "type": "external",
+        "url": "https://github.com/alirezafalah/Tool_Condition_Monitoring/tree/main/image_to_signal",
+        "text": "Code"
+      }
+    ],
+    "bibtex": "@article{Falah2024,\nauthor = {Falah, Alireza and Andó, Mátyás},\ntitle = {Novel and cost-effective CNC tool condition monitoring through image processing techniques},\njournal = {Discover Applied Sciences},\nyear = {2024},\nvolume = {6},\nnumber = {1},\npages = {69},\nissn = {2730-8903},\ndoi = {10.1007/s42452-024-06200-w},\nurl = {https://doi.org/10.1007/s42452-024-06200-w}\n}"
+  },
+  {
+    "id": "cos-2024",
+    "image": "images/papers-and-projects/confpaper.png",
+    "title": "Autonomous Racing Competitions: A Review of Platforms, Software Development, and Sustainability Contributions",
+    "authors": "Zalán Demeter, Alireza Falah, Levente Puskás",
+    "venue": "Conference on Sustainability – COS '24",
+    "links": [
+      {
+        "type": "external",
+        "url": "https://cos.sze.hu/images/kiadv%C3%A1nyok/COS2024/Zal%C3%A1n%20Demeter,%20Alireza%20Falah,%20Levente%20Pusk%C3%A1s.pdf",
+        "text": "Paper"
+      },
+      {
+        "type": "bibtex",
+        "text": "BibTeX"
+      }
+    ],
+    "bibtex": "@inproceedings{Demeter2024Autonomous,\nauthor    = {Demeter, Zalán and Falah, Alireza and Puskás, Levente},\ntitle     = {{AUTONOMOUS RACING COMPETITIONS: A REVIEW OF PLATFORMS, SOFTWARE DEVELOPMENT, AND SUSTAINABILITY CONTRIBUTIONS}},\nbooktitle = {Proceedings of the 2nd Conference on Sustainability – COS '24},\nyear      = {2024},\npages     = {106--112},\ndoi       = {10.62897/COS2024.2-1.106},\naddress   = {Győr, Hungary},\nmonth     = {November}\n}"
+  }
+]

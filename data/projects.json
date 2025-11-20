@@ -1,0 +1,21 @@
+[
+  {
+    "id": "dataset-1",
+    "image": "images/papers-and-projects/dataset_sample.jpg",
+    "title": "ELTE-TCM-46k: A CNC Tool Condition Image Dataset",
+    "authors": "Alireza Falah, Soninkhuu Baatarchuluun, Mátyás Andó, Béla Szekeres",
+    "description": "A dataset of approximately 46,000 high-resolution TIFF images of CNC cutting tools, created to support research in automated Tool Condition Monitoring (TCM). It is a valuable resource for machine vision tasks like classification, segmentation, and anomaly detection in smart manufacturing.",
+    "links": [
+      {
+        "type": "external",
+        "url": "https://huggingface.co/datasets/alirezafalah/ELTE-TCM-46k",
+        "text": "Hugging Face Dataset"
+      },
+      {
+        "type": "bibtex",
+        "text": "BibTeX"
+      }
+    ],
+    "bibtex": "@misc{falah_2025_elte_tcm_46k,\nauthor    = {Falah, Alireza and Baatarchuluun, Soninkhuu and Andó, Mátyás and Szekeres, Béla},\ntitle     = {{{ELTE-TCM-46k}}: A CNC Tool Condition Image Dataset},\nyear      = {2025},\npublisher = {Hugging Face},\njournal   = {Hugging Face repository},\ndoi       = {10.57967/hf/6145},\nurl       = {https://huggingface.co/datasets/alirezafalah/ELTE-TCM-46k}\n}"
+  }
+]
