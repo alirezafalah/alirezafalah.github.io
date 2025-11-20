@@ -14,7 +14,7 @@
   {
     "date": "August 2025",
     "content": "The initial version of our dataset, <a href=\"https://huggingface.co/datasets/alirezafalah/ELTE-TCM-46k\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">ELTE-TCM-46k</a>, has been published on Hugging Face!"
-  }
+  },
   {
     "date": "November 2023",
     "content": "Awarded <span class=\"font-medium\">2nd Place</span> at the University Scientific Student Association (TDK) conference in the Informatics section, qualifying for the National OTDK. The research focused on CNC tool monitoring and was selected for publication.",

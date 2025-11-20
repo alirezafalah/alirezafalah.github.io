@@ -25,10 +25,12 @@
     "title": "Autonomous Racing: A2RL Competition",
     "authors": "HUMDA Lab Team",
     "description": "Contributed to the team's 5th place global finish by executing critical simulation-based verification of vehicle behavior. I utilized the official simulator to validate control strategies and ensure stability prior to track deployment.",
+    "links": [
       {
         "type": "external",
         "url": "https://a2rl.io",
         "text": "Competition Site"
       }
+    ]
   }
 ]
