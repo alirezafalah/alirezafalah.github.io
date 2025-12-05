@@ -15,25 +15,35 @@ class PublicationsRenderer {
         }
     }
 
+    highlightAuthorName(authors) {
+        return authors.replace(/Alireza Falah/gi, '<em>Alireza Falah</em>');
+    }
+
     render(publications) {
         const html = publications.map(pub => {
             const linksHtml = this.renderLinks(pub);
             const bibtexId = `bibtex-content-${pub.id}`;
             const statusBadge = pub.status ? `<span class="font-bold text-green-600">[${pub.status}]</span>` : '';
+            const highlightedAuthors = this.highlightAuthorName(pub.authors);
 
             return `
                 <div class="publication-item">
                     <img src="${pub.image}" alt="${pub.title}" class="w-full md:w-48 rounded-lg object-cover shadow-sm flex-shrink-0">
                     <div class="flex-grow">
                         <h3 class="text-xl font-semibold text-gray-900">${pub.title}</h3>
-                        <p class="text-gray-600 mt-1">${pub.authors}</p>
+                        <p class="text-gray-600 mt-1">${highlightedAuthors}</p>
                         <p class="text-gray-500 italic mt-1">${pub.venue} ${statusBadge}</p>
                         <div class="mt-3 space-x-4">
                             ${linksHtml}
                         </div>
                         ${pub.bibtex ? `
                         <div id="${bibtexId}" class="hidden mt-4">
-                            <pre class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>${this.escapeHtml(pub.bibtex)}</code></pre>
+                            <div class="relative">
+                                <button onclick="navigator.clipboard.writeText(this.nextElementSibling.textContent.trim())" class="absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm font-medium transition-colors" title="Copy BibTeX">
+                                    📋 Copy
+                                </button>
+                                <pre class="bg-gray-100 p-4 pr-24 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>${this.escapeHtml(pub.bibtex)}</code></pre>
+                            </div>
                         </div>
                         ` : ''}
                     </div>

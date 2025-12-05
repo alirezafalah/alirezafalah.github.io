@@ -15,24 +15,34 @@ class ProjectsRenderer {
         }
     }
 
+    highlightAuthorName(authors) {
+        return authors.replace(/Alireza Falah/gi, '<em>Alireza Falah</em>');
+    }
+
     render(projects) {
         const html = projects.map(project => {
             const linksHtml = this.renderLinks(project);
             const bibtexId = `bibtex-content-${project.id}`;
+            const highlightedAuthors = this.highlightAuthorName(project.authors);
 
             return `
                 <div class="publication-item">
                     <img src="${project.image}" alt="${project.title}" class="w-full md:w-48 rounded-lg object-cover shadow-sm flex-shrink-0">
                     <div class="flex-grow">
                         <h3 class="text-xl font-semibold text-gray-900">${project.title}</h3>
-                        <p class="text-gray-600 mt-1">${project.authors}</p>
+                        <p class="text-gray-600 mt-1">${highlightedAuthors}</p>
                         <p class="text-gray-700 mt-2">${project.description}</p>
                         <div class="mt-3 space-x-4">
                             ${linksHtml}
                         </div>
                         ${project.bibtex ? `
                         <div id="${bibtexId}" class="hidden mt-4">
-                            <pre class="bg-gray-100 p-4 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>${this.escapeHtml(project.bibtex)}</code></pre>
+                            <div class="relative">
+                                <button onclick="navigator.clipboard.writeText(this.nextElementSibling.textContent.trim())" class="absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm font-medium transition-colors" title="Copy BibTeX">
+                                    📋 Copy
+                                </button>
+                                <pre class="bg-gray-100 p-4 pr-24 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>${this.escapeHtml(project.bibtex)}</code></pre>
+                            </div>
                         </div>
                         ` : ''}
                     </div>
