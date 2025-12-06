@@ -39,7 +39,7 @@ class PublicationsRenderer {
                         ${pub.bibtex ? `
                         <div id="${bibtexId}" class="hidden mt-4">
                             <div class="relative">
-                                <button onclick="navigator.clipboard.writeText(this.nextElementSibling.textContent.trim())" class="absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm font-medium transition-colors" title="Copy BibTeX">
+                                <button onclick="this.classList.add('!bg-green-600'); this.innerHTML='✓ Copied!'; setTimeout(()=>{this.classList.remove('!bg-green-600'); this.innerHTML='📋 Copy';}, 2000); navigator.clipboard.writeText(this.nextElementSibling.textContent.trim())" class="absolute top-2 right-2 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300" title="Copy BibTeX">
                                     📋 Copy
                                 </button>
                                 <pre class="bg-gray-100 p-4 pr-24 rounded-lg text-sm text-gray-800 overflow-x-auto"><code>${this.escapeHtml(pub.bibtex)}</code></pre>
