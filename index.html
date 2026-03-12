@@ -146,6 +146,28 @@
             </div>
         </section>       
 
+        <!-- Featured Paper Section -->
+        <section class="mb-16 bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-indigo-200 rounded-xl p-8 shadow-lg">
+            <div class="flex flex-col lg:flex-row gap-8 items-start">
+                <div class="flex-grow">
+                    <div class="inline-block bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold mb-4">
+                        🔬 Featured Paper - ECCV Submission
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Learning Deep Shape Priors for the 3D Reconstruction of Highly Reflective CNC Tools via Visual Hull Refinement</h3>
+                    <p class="text-gray-800 mb-4 leading-relaxed">
+                        <strong>Abstract:</strong> Automated 3D reconstruction of featureless, specular industrial objects, such as CNC drills and end mills, remains an open challenge. Photometric methods break on polished metal reflections, while geometric Shape-from-Silhouette (Visual Hull) methods cannot observe interior concavities such as cutting flutes. We propose a simulation-based 3D representation learning pipeline that fuses geometric visual hulls with a learned Deep Shape Prior. A physics-inspired Virtual Turntable renders 522 manufacturer-grade CAD models into synthetic 360° occluded voxel grids, rigorously augmented to mimic real-world silhouette-carving artifacts. A 3D Convolutional Autoencoder is then trained to map these coarse, phantom-filled hulls to their flawless ground-truth geometries. We conduct systematic experiments, including loss-function sweeps and skip-connection ablations (plain Autoencoder vs. U-Net vs. Attention U-Net) to characterise the architectural requirements for accurate concavity recovery. Our best bottlenecked model achieves 82.8% 3D IoU on held-out test tools, demonstrating that strict architectural constraints successfully force the learning of global shape priors, providing a robust theoretical foundation for the metrology of complex industrial geometries.
+                    </p>
+                    <p class="text-sm text-gray-700 mb-6"><strong>Keywords:</strong> 3D Reconstruction · Deep Shape Prior · Sim2Real Transfer · Visual Hull · Specular Surfaces · CNC Tool Monitoring</p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="docs/Learning Deep Shape Priors for the 3D Reconstruction of Highly Reflective CNC Tools via Visual Hull Refinement.pdf" download class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Publications Section -->
         <section class="mb-16">
             <h2 class="text-3xl font-bold border-b pb-2 mb-8">Publications</h2>
