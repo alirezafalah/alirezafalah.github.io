@@ -1,5 +1,9 @@
 [
   {
+    "date": "October 2026",
+    "content": "Major update to the <a href=\"https://huggingface.co/datasets/alirezafalah/ELTE-TCM-46k\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:underline\">ELTE-TCM-46k</a> dataset on Hugging Face is underway: tilt-corrected binary segmentation masks across all 115 CNC cutting tools, calibration backgrounds, and the interactive tool condition &amp; symmetry metadata table are now live, with the full high-resolution TIFF rotational sequences being uploaded progressively."
+  },
+  {
     "date": "November 2025",
     "content": "Our paper <span class=\"italic\">\"Tool Condition Monitoring in CNC Systems: A hybrid computer vision and signal processing approach\"</span> has been accepted for publication in <span class=\"font-medium\">The International Journal of Advanced Manufacturing Technology</span> (Q1)."
   },
